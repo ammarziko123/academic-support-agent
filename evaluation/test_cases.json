@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "question": "What is the attendance requirement?",
+    "expected_source": "attendance_policy.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 2,
+    "question": "What is the late submission penalty?",
+    "expected_source": "assignment_policy.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 3,
+    "question": "When is Python Assignment 1 released?",
+    "expected_source": "academic_calendar.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 4,
+    "question": "What courses are available?",
+    "expected_source": "course_catalog.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 5,
+    "question": "How can I report a technical issue?",
+    "expected_source": "student_faq.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 6,
+    "question": "What percentage of attendance is required to receive a certificate?",
+    "expected_source": "attendance_policy.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 7,
+    "question": "What happens if I submit an assignment late?",
+    "expected_source": "assignment_policy.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 8,
+    "question": "What topics or courses can students study at the academy?",
+    "expected_source": "course_catalog.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 9,
+    "question": "Where can I find help with common student problems?",
+    "expected_source": "student_faq.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 10,
+    "question": "When is Python Assignment 2 due?",
+    "expected_source": "academic_calendar.md",
+    "expected_behavior": "answer_from_knowledge_base"
+  },
+  {
+    "id": 11,
+    "question": "What happens if I fail an assignment?",
+    "expected_source": null,
+    "expected_behavior": "abstain_if_not_documented"
+  },
+  {
+    "id": 12,
+    "question": "What is the attendance policy at Harvard University?",
+    "expected_source": null,
+    "expected_behavior": "abstain_if_not_documented"
+  },
+  {
+    "id": 13,
+    "question": "What is the exact salary of the academy director?",
+    "expected_source": null,
+    "expected_behavior": "abstain_if_not_documented"
+  },
+  {
+    "id": 14,
+    "question": "Can I get a guaranteed job after completing a course?",
+    "expected_source": null,
+    "expected_behavior": "abstain_if_not_documented"
+  },
+  {
+    "id": 15,
+    "question": "What is the academy's official government accreditation number?",
+    "expected_source": null,
+    "expected_behavior": "abstain_if_not_documented"
+  },
+  {
+    "id": 16,
+    "question": "Calculate my grade: 85 out of 100",
+    "expected_source": null,
+    "expected_behavior": "calculate_grade"
+  },
+  {
+    "id": 17,
+    "question": "Calculate my grade: 45 out of 60",
+    "expected_source": null,
+    "expected_behavior": "calculate_grade"
+  },
+  {
+    "id": 18,
+    "question": "Calculate my grade using 30 earned points out of 40",
+    "expected_source": null,
+    "expected_behavior": "calculate_grade"
+  },
+  {
+    "id": 19,
+    "question": "Create a support ticket",
+    "expected_source": null,
+    "expected_behavior": "ask_for_missing_information"
+  },
+  {
+    "id": 20,
+    "question": "I need help with a technical issue. Please create a support ticket for me.",
+    "expected_source": null,
+    "expected_behavior": "ask_for_missing_information"
+  }
+]
